@@ -1,0 +1,197 @@
+.map {
+    position: relative;
+}
+
+.Upper1 {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: oblique;
+    color: firebrick;
+}
+
+a {
+    text-decoration: none;
+}
+
+#P1 {
+    position: absolute;
+    top: 39%;
+    right: 8%;
+    cursor: pointer;
+}
+
+#P2 {
+    position: absolute;
+    top: 110%;
+    right: 30%;
+}
+
+#P3 {
+    position: absolute;
+    top: 75%;
+    right: 78%;
+}
+
+#P4 {
+    position: absolute;
+    top: 45%;
+    right: 80%;
+}
+
+#P5 {
+    position: absolute;
+    top: 19%;
+    right: 73%;
+}
+
+#P6 {
+    position: absolute;
+    top: 79%;
+    right: 10%;
+    cursor: pointer;
+}
+
+#P7 {
+    position: absolute;
+    top: 106%;
+    right: 41%;
+}
+
+#P8 {
+    position: absolute;
+    top: 122%;
+    right: 59%;
+}
+
+#P9 {
+    position: absolute;
+    top: 130%;
+    right: 38%;
+}
+
+#P10 {
+    position: absolute;
+    top: 72%;
+    right: 92%;
+}
+
+#P11 {
+    position: absolute;
+    top: 130%;
+    font-size: 8px;
+    right: 50%;
+}
+
+#P12 {
+    position: absolute;
+    top: 136%;
+    right: 45%;
+}
+
+#P13 {
+    position: absolute;
+    top: 146%;
+    right: 31%;
+}
+
+#P14 {
+    position: absolute;
+    top: 99%;
+    right: 70%;
+}
+
+#P15 {
+    position: absolute;
+    top: 169%;
+    right: 61%;
+    font-size: 12px;
+}
+
+#P16 {
+    position: absolute;
+    top: 130%;
+    right: 72%;
+}
+
+#P17 {
+    position: absolute;
+    top: 162%;
+    right: 69%;
+    font-size: 10px;
+}
+
+#P18 {
+    position: absolute;
+    top: 75%;
+    right: 46%;
+}
+
+#P19 {
+    position: absolute;
+    top: 150%;
+    right: 51%;
+}
+
+#P20 {
+    position: absolute;
+    top: 37%;
+    right: 68%;
+}
+
+#P21 {
+    position: absolute;
+    top: 102%;
+    right: 52%;
+}
+
+#P22 {
+    position: absolute;
+    top: 200%;
+    right: 35%;
+}
+
+#P23 {
+    position: absolute;
+    top: 75%;
+    right: 28%;
+}
+
+#P24 {
+    position: absolute;
+    top: 45%;
+    right: 26%;
+    cursor: pointer;
+}
+
+#P25 {
+    position: absolute;
+    top: 35%;
+    right: 49%;
+    cursor: pointer;
+}
+
+#P26 {
+    position: absolute;
+    top: 156%;
+    right: 60%;
+}
+
+
+/* button */
+
+.P27 {
+    cursor: pointer;
+    color: antiquewhite;
+    position: absolute;
+    left: 870%;
+    width: 300px;
+    top: 600%;
+    background-color: black;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.P27:hover {
+    background-color: rgb(243, 14, 14);
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+}

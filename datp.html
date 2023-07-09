@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        #K1 {
+            padding-top: 20px;
+            margin-left: 30px;
+            text-align: left;
+            font-size: 40px;
+        }
+        
+        #K4 {
+            text-align: center;
+            font-size: 30px;
+            color: #f90c0c;
+            font-weight: bold;
+        }
+        
+        .main {
+            width: 100%;
+            height: 109vh;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)50%), url(pursat.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #K4 {
+            text-align: center;
+            font-size: 30px;
+            color: #f90c0c;
+            font-weight: bold;
+        }
+        
+        .input {
+            margin-top: 8%;
+            width: 450px;
+            padding: 15px;
+            height: 380px;
+            margin-left: 30%;
+            border-radius: 50px;
+            border: 2px solid #0c91ca;
+        }
+        
+        .input input {
+            margin-top: 30px;
+            padding: 3px;
+            font-weight: bold;
+        }
+        
+        #K5 {
+            padding: 10px;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 28px;
+            color: #fff;
+        }
+        
+        #Month {
+            width: 100px;
+            font-family: sans-serif;
+            height: 30px;
+            font-size: 18px;
+            border: 2px solid #15057e;
+            margin-left: 6px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        #Day {
+            width: 65px;
+            font-family: sans-serif;
+            height: 30px;
+            font-size: 18px;
+            margin-left: 12px;
+            border-radius: 8px;
+            border: 2px solid #15057e;
+            text-align: center;
+        }
+        
+        #Year {
+            width: 110px;
+            font-family: sans-serif;
+            height: 30px;
+            font-size: 18px;
+            margin-left: 6px;
+            border: 2px solid #15057e;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        #Button {
+            width: 90px;
+            height: 40px;
+            color: #e70d0d;
+            font-family: Times, serif;
+            border-radius: 8px;
+            font-size: 16px;
+            border: 2px solid #e70d0d;
+            font-weight: bold;
+        }
+        
+        #Button:hover {
+            color: #fff;
+            background-color: #15057e;
+        }
+        
+        #Ouputs {
+            text-align: center;
+            margin-top: 36px;
+            color: #fff;
+            font-size: 30px;
+            font-family: Times, serif;
+            font-weight: bold;
+        }
+        
+        #Output {
+            margin-top: 30px;
+            margin-left: 64px;
+            width: 300px;
+            color: #de5202;
+            font-size: 23px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #de5202;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main2">
+            <div class="head">
+                <h1 id="K1">ខេត្ត​ ពោធ៍សាត់</h1>
+            </div>
+            <div class="input">
+                <p id="K4"> DayLength</p>
+                <p id="K5"> Please Input Day Month and Year </p>
+                <input list="month" id="Month" placeholder="Month">
+                <datalist id="month">
+                  <option value="1" id="M1">Jan</option>
+                  <option value="2" id="M2">Feb</option>
+                  <option value="3" id="M3">Mar</option>
+                  <option value="4" id="M4">Apr</option>
+                  <option value="5" id="M5">May</option>
+                  <option value="6" id="M6">June</option>
+                  <option value="7" id="M7">July</option>
+                  <option value="8" id="M8">Aug</option>
+                  <option value="9" id="M9">Sept</option>
+                  <option value="10" id="M10">Oct</option>
+                  <option value="11" id="M11">Nov</option>
+                  <option value="12" id="M12">Dec</option>
+              </datalist>
+                <input list="day" id="Day" placeholder="Day">
+                <datalist id="day">
+                  <option value="1" id="D1">1</option>
+                  <option value="2" id="D2">2</option>
+                  <option value="3" id="D3">3</option>
+                  <option value="4" id="D4">4</option>
+                  <option value="5" id="D5">5</option>
+                  <option value="6" id="D6">6</option>
+                  <option value="7" id="D7">7</option>
+                  <option value="8" id="D8">8</option>
+                  <option value="9" id="D9">9</option>
+                  <option value="10" id="D10">10</option>
+                  <option value="11" id="D11">11</option>
+                  <option value="12" id="D12">12</option>
+                  <option value="13" id="D13">13</option>
+                  <option value="14" id="D14">14</option>
+                  <option value="15" id="D15">15</option>
+                  <option value="16" id="D16">16</option>
+                  <option value="17" id="D17">17</option>
+                  <option value="18" id="D18">18</option>
+                  <option value="19" id="D19">19</option>
+                  <option value="20" id="D20">20</option>
+                  <option value="21" id="D21">21</option>
+                  <option value="22" id="D22">22</option>
+                  <option value="23" id="D23">23</option>
+                  <option value="24" id="D24">24</option>
+                  <option value="25" id="D25">25</option>
+                  <option value="26" id="D26">26</option>
+                  <option value="27" id="D27">27</option>
+                  <option value="28" id="D28">28</option>
+                  <option value="29" id="D29">29</option>
+                  <option value="30" id="D30">30</option>
+                  <option value="31" id="D31">31</option>
+              </datalist>
+                <input type="number" id="Year" placeholder="Years">
+                <button id="Button" onclick="Output()">SUMIT</button>
+                <p id="Ouputs">The Time of day length is <br>
+                    <p id="Output"></p>
+                </p>
+                <p id="Optw1"></p>
+                <p id="Optw2"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function Output() {
+        let pi = 3.14;
+        let month = document.getElementById("Month").value;
+        let day = document.getElementById("Day").value;
+        let year = document.getElementById("Year").value;
+        let BB = document.getElementById("Output");
+        let optw2 = document.getElementById("Optw2");
+        let optw3 = document.getElementById("Optw3");
+        Number(month);
+        Number(day);
+        Number(year);
+        Number(pi);
+        if (day > 31) {
+            alert("Please check Your Day Number!");
+        } else if (month > 12) {
+            alert("Please check Your Month Number!");
+        } else {
+            let Fullday = (month * 30) - (30 - day);
+            Number(Fullday);
+            if (month = 2) {
+                if (year % 4 == 0) {
+                    if (day > 29) {
+                        BB.innerText = "ERROOORRR";
+                    } else {
+                        let B = 43.4865 * Math.cos((6.28 * (Fullday - 172)) / 365) + 727.5465;
+                        let h, m, s;
+                        Number(h);
+                        Number(m);
+                        Number(s);
+                        h = Math.floor(B / 60);
+                        m = Math.floor(B % 60);
+                        s = Math.floor((B - ((h * 60) + m)) * 60);
+                        BB.innerText = h + "h:" + m + "mn:" + s + "s";
+                    }
+                } else {
+                    if (day > 28) {
+                        BB.innerText = "ERROOORRR";
+                    } else {
+                        let B = 43.4865 * Math.cos((6.28 * (Fullday - 172)) / 365) + 727.5465;
+                        let h, m, s;
+                        Number(h);
+                        Number(m);
+                        Number(s);
+                        h = Math.floor(B / 60);
+                        m = Math.floor(B % 60);
+                        s = Math.floor((B - ((h * 60) + m)) * 60);
+                        BB.innerText = h + "h:" + m + "mn:" + s + "s";
+                    }
+                }
+            } else {
+                if (day == 0 && month == 0 && year == 0) {
+                    BB.innerText = Time["00:00:0000"];
+                } else {
+                    let B = 43.4865 * Math.cos((6.28 * (Fullday - 172)) / 365) + 727.5465;
+                    let h, m, s;
+                    Number(h);
+                    Number(m);
+                    Number(s);
+                    h = Math.floor(B / 60);
+                    m = Math.floor(B % 60);
+                    s = Math.floor((B - ((h * 60) + m)) * 60);
+                    BB.innerText = h + "h:" + m + "mn:" + s + "s";
+                }
+            }
+        }
+    } //make by sengleang and Edit by Dalin
+</script>
+
+</html>
